@@ -1,13 +1,12 @@
 #!/usr/bin/python3
+from sys import argv
+
+
+def car():
+    sum = 0
+    for i in range(1, len(argv)):
+        sum += int(argv[i])
+    print(sum)
 
 if __name__ == "__main__":
-    """Print the addition of all arguments."""
-    import sys
-
-    def car():#carrier
-        total = 0
-        for i in range(1,len(sys.argv)):
-            total += int(sys.argv[i])
-        print(total)
-        car()
-
+    car()
