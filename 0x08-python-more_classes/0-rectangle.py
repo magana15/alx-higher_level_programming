@@ -3,7 +3,7 @@
 """defining a Rectangle"""
 
 
-class rectangle:
+class Rectangle:
     """Rectangle class"""
     pass
 
