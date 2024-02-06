@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a class MyList that inherits from list"""
+"""Defines a class MyList that inherits from list
+"""
 
 
 class MyList(list):
@@ -9,7 +10,8 @@ class MyList(list):
         list (list): list to sort in ascending order.
     """
     def print_sorted(self):
-        """Print a list in ascending order."""
+        """Print a list in ascending order.
+        """
         list_ = self[:]
         list_.sort()
         print(list_)
